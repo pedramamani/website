@@ -1,0 +1,52 @@
+
+Life
+    Hobby -> hobby
+        3D Print -> 3dPrint
+            Soap Holder -> soapHolder
+            Wall Hook -> wallHook
+            Adjustable Leg -> adjustableLeg
+            Headphone Hanger -> headphoneHanger
+            Key Hanger -> keyHanger
+            Line Vase -> lineVase
+            Shelf Pin -> shelfPin
+            Screwdriver Handle -> screwdriverHandle
+        Hike -> hike
+            South Needle, June 2021 -> southNeedleJune2021
+            Brunswick Mountain, March 2021 -> brunswickMountainMarch2021
+            Twin Falls, August 2020 -> twinFallsAugust2020
+            Brandywine Mountain, August 2020 -> brandywineMountainAugust2020
+            Brother's Creek, July 2020 -> brothersCreekJuly2020
+            Norvan Falls, August 2019 -> norvanFallsAugust2019
+            Lynn Peak, April 2019 -> lynnPeakApril2019
+            Lions Bay, April 2019 -> lionsBayApril2019
+            Gambier Island, July 2018 -> gambierIslandJuly2018
+            Garibaldi, August 2016 -> garibaldiAugust2016
+        Snowboard -> snowboard
+            Cypress - March 30, 2019 -> cypressMarch302019
+            Cypress - March 8, 2022 -> cypressMarch082022
+            Cypress - March 24, 2022 -> cypressMarch242022
+        Compete
+            CAP High School 2016
+            UBC Physics Olympics 2016
+            CAP High School 2017
+            UBC Physics Olympics 2017
+            IPhO 2017
+            CAP University 2018
+            CAP University 2019
+            CAP University 2020
+            CAP University 2021
+        Code
+            ...
+    Work -> work
+        Tutor
+        Research
+        TA
+    School -> school
+        WVSS
+        UBC
+
+
+
+
+What to include on my website?
+Popular 3D design models
