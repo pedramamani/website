@@ -1,0 +1,1 @@
+img.svelte-1ov21ix{filter:brightness(var(--imageBrightness));transition:filter var(--transitionDuration)}.images.svelte-1ov21ix{display:grid;margin-top:24px}@media (min-width: 640px){.images.svelte-1ov21ix{grid-template-columns:repeat(2,1fr)}}
