@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #27272d;">
+<html lang="en">
 <head>
+    <script>
+        let theme = 0
+        const themeString = localStorage.getItem("theme")
+        if (themeString) {
+            theme = parseInt(themeString)
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = 1
+        }
+        document.documentElement.style.backgroundColor = theme ? "#27272d" : "#ffffff"
+    </script>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href="./favicon.png"/>
     <link rel="stylesheet" href="./style.css">
     <meta http-equiv="content-security-policy" content=""><title>Pedram&#39;s Portfolio</title><meta name="description" content="A showcase of my projects and involvements: Coding Projects, 3D Design, Research, Teaching" data-svelte="svelte-fzigpk">
-	<link href="./app/immutable/assets/+page-356d7dd2.css" rel="stylesheet">
-	<link rel="modulepreload" href="./app/immutable/start-1de58384.js">
+	<link href="./app/immutable/assets/+page-523b5a78.css" rel="stylesheet">
+	<link rel="modulepreload" href="./app/immutable/start-cc3b504f.js">
 	<link rel="modulepreload" href="./app/immutable/chunks/index-ee41e55b.js">
 	<link rel="modulepreload" href="./app/immutable/chunks/index-dfb3dd74.js">
 	<link rel="modulepreload" href="./app/immutable/components/layout.svelte-5f6313c3.js">
-	<link rel="modulepreload" href="./app/immutable/components/pages/_page.svelte-53495e95.js">
+	<link rel="modulepreload" href="./app/immutable/components/pages/_page.svelte-6d7007fc.js">
 </head>
 <body>
 
@@ -21,14 +31,13 @@
 
 
 
-
-		<script type="module" data-sveltekit-hydrate="1ua4v8v">
-		import { set_public_env, start } from "./app/immutable/start-1de58384.js";
+		<script type="module" data-sveltekit-hydrate="8grsed">
+		import { set_public_env, start } from "./app/immutable/start-cc3b504f.js";
 
 		set_public_env({});
 
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="1ua4v8v"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="8grsed"]').parentNode,
 			paths: {"base":"","assets":""},
 			route: true,
 			spa: false,
