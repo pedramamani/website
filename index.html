@@ -2,26 +2,22 @@
 <html lang="en">
 <head>
     <script>
-        let theme = 0
-        const themeString = localStorage.getItem("theme")
-        if (themeString) {
-            theme = parseInt(themeString)
-        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            theme = 1
-        }
-        document.documentElement.style.backgroundColor = theme ? "#27272d" : "#ffffff"
+        if (localStorage.theme == 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches)
+            document.documentElement.style.backgroundColor = '#27272d'
+        else
+            document.documentElement.style.backgroundColor = '#ffffff'
     </script>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="icon" href="./favicon.png"/>
     <link rel="stylesheet" href="./style.css">
-    <meta http-equiv="content-security-policy" content=""><title>Pedram&#39;s Portfolio</title><meta name="description" content="A showcase of my projects and involvements: Coding Projects, 3D Design, Research, Teaching" data-svelte="svelte-fzigpk">
-	<link href="./app/immutable/assets/+page-523b5a78.css" rel="stylesheet">
-	<link rel="modulepreload" href="./app/immutable/start-29f7dc5f.js">
+    <meta http-equiv="content-security-policy" content=""><title>Pedram Amani</title><meta name="description" content="A showcase of my projects and involvements: Coding Projects, Research, 3D Design, Teaching" data-svelte="svelte-1vs496i">
+	<link href="./app/immutable/assets/+page-0f8f2e23.css" rel="stylesheet">
+	<link rel="modulepreload" href="./app/immutable/start-6014adf1.js">
 	<link rel="modulepreload" href="./app/immutable/chunks/index-ee41e55b.js">
 	<link rel="modulepreload" href="./app/immutable/chunks/index-dfb3dd74.js">
 	<link rel="modulepreload" href="./app/immutable/components/layout.svelte-5f6313c3.js">
-	<link rel="modulepreload" href="./app/immutable/components/pages/_page.svelte-1257c1d5.js">
+	<link rel="modulepreload" href="./app/immutable/components/pages/_page.svelte-7d4aa2ae.js">
 </head>
 <body>
 
@@ -32,7 +28,7 @@
 
 
 		<script type="module" data-sveltekit-hydrate="8grsed">
-		import { set_public_env, start } from "./app/immutable/start-29f7dc5f.js";
+		import { set_public_env, start } from "./app/immutable/start-6014adf1.js";
 
 		set_public_env({});
 
