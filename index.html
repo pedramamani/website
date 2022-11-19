@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <script>
-        if (localStorage.theme == 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches)
-            document.documentElement.style.backgroundColor = '#27272d'
-        else
-            document.documentElement.style.backgroundColor = '#ffffff'
+        const darkTheme = (
+            localStorage.theme == '1' ||
+            localStorage.theme != '0' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+
+        if (darkTheme) document.documentElement.style.backgroundColor = '#202124'
+        else document.documentElement.style.backgroundColor = '#ffffff'
     </script>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,11 +15,11 @@
     <link rel="stylesheet" href="./style.css">
     <meta http-equiv="content-security-policy" content=""><title>Pedram Amani</title><meta name="description" content="A showcase of my projects and involvements: Coding Projects, Research, 3D Design, Teaching" data-svelte="svelte-1vs496i">
 	<link href="./app/immutable/assets/+page-0f8f2e23.css" rel="stylesheet">
-	<link rel="modulepreload" href="./app/immutable/start-6014adf1.js">
+	<link rel="modulepreload" href="./app/immutable/start-6b4a3a62.js">
 	<link rel="modulepreload" href="./app/immutable/chunks/index-ee41e55b.js">
 	<link rel="modulepreload" href="./app/immutable/chunks/index-dfb3dd74.js">
 	<link rel="modulepreload" href="./app/immutable/components/layout.svelte-5f6313c3.js">
-	<link rel="modulepreload" href="./app/immutable/components/pages/_page.svelte-7d4aa2ae.js">
+	<link rel="modulepreload" href="./app/immutable/components/pages/_page.svelte-9bc72ab7.js">
 </head>
 <body>
 
@@ -28,7 +30,7 @@
 
 
 		<script type="module" data-sveltekit-hydrate="8grsed">
-		import { set_public_env, start } from "./app/immutable/start-6014adf1.js";
+		import { set_public_env, start } from "./app/immutable/start-6b4a3a62.js";
 
 		set_public_env({});
 
